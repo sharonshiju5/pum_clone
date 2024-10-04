@@ -1,9 +1,10 @@
 body{
     margin: 0px;
 height: 6500px;
-position: relative;
+/* position: relative; */
 right: 0px;
 padding-right: -10px;
+/* background-color: cornflowerblue; */
 }
 .top{
     background-color: #8a7350;
@@ -526,6 +527,8 @@ display: n;
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        top: 500px;
     }
 }
 
@@ -633,6 +636,29 @@ p {
     
     cursor: pointer;
 }
+@media(max-width:769px){
+    .virat2{
+        position: relative;
+        top: 600px;
+        width: 100%;
+    }
+}
+@media(max-width:769px){
+    .container2{
+        position: relative;
+        /* top: 600px; */
+        left: -500px;
+        width: 100%;
+    }
+}
+@media(max-width:769px){
+    .main3 p{
+        position: relative;
+        left: 500px;
+        top: 500px;
+    }
+}
+
 
 #cover {
   width: 800px;
@@ -642,47 +668,90 @@ p {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  position: relative;
 }
 
 #cover > img {
   float: left;
+  position: relative;
+  /* left: -400px; */
   /* border: 2px solid black; */
   width: 45%;
   /* margin: 1.66%; */
   height: 920px;
-  width: 100%;
+  width: 90%;
+}
+.shoeimg2{
+    /* position: absolute;
+    margin-left: 30px; */
 }
 @media (max-width: 769px) {
     .cover img {
         height: 500px;
         margin-top:200px ;
         margin-left: 30px;
+        position: relative;
+        top: 120%;
+        margin-top: 40px;
     }
 }
 
-@media (max-width: 3220px) {
+@media (max-width: 320px) {
     .cover img {
         height: 240px;
-        margin-left: 0px;
-    }
-}
-@media (max-width: 769px) {
-    .shoeimg {
-        height: 100px;
-        /* margin-top:200px ; */
-        position: absolute;
-        top: -500px;
-        /* display: none; */
+        margin-left: 350px;
+        width: 100%;
+
     }
 }
 
 @media (max-width: 322px) {
-    .shoimg {
-        grid-template-columns: 1fr;
+    .shoeimg {
+        /* grid-template-columns: 1fr; */
         margin-right: 0px;
     }
 }
-
+@media (max-width: 768px) {
+    .shoeimg{
+        /* position: absolu;
+        left: -530px;
+        top: 4850px;
+        /* height: 1000px; */
+        /* width: 10%;  */
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .title1{
+        /* background-color: #414584; */
+        /* position: absolu;
+        left: -530px;
+        top: 4850px;
+        /* height: 1000px; */
+        /* width: 10%;  */
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .containe4{
+        /* position: absolu;
+        left: -530px;
+        top: 4850px;
+        /* height: 1000px; */
+        /* width: 10%;  */
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .containe3{
+        /* position: absolu;
+        left: -530px;
+        top: 4850px;
+        /* height: 1000px; */
+        /* width: 10%;  */
+        display: none;
+    }
+}
 
 
 .name{
@@ -767,20 +836,12 @@ p {
         display: none;
     }
 }
+
 @media (max-width: 768px) {
-    .shoeimg{
-        position: absolute;
-        left: 30px;
-        top: 3250px;
-        /* height: 1000px; */
-        width: 80%;
-    }
-}
-/* @media (max-width: 768px) {
     body{
-        width: 1300px;
+        width: 1400px;
         margin-right: 0px;
-        margin-left: 40px;
+        /* margin-left: 40px; */
     }
 }
 @media (max-width: 322px) {
@@ -789,19 +850,19 @@ p {
         margin-right: 0px;
         /* margin-left: 250px; */
     }
-} */
+}
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .mainimg{
-        display: none;
+        /* display: none; */
     }
 }
 
 @media (max-width: 768px) {
     .main5{
-        top: 850px;
+        top: 1250px;
     }
 }
 .main5{
@@ -850,7 +911,27 @@ display: n;
     }
 
 }
+.virat5{
+    position: relative;
+    height: 700px;
+    margin-top: 120px;
+    margin-left: 40px;
+    display: none;
 
+}
+@media(max-width:769px){
+    .virat5{
+        display: block;
+    position: relative;
+    top: 450px;
+    height: 1000px;
+    margin-top: 120px;
+    margin-left: 15%;
+    z-index: 10000;
+    align-items: center;
+    background-color: #414584;
+    }
+}
 
 .container5 h1 {
     font-size: 38px;
@@ -952,7 +1033,7 @@ display: n;
     margin-bottom: 50px;
 }
 .grids{
-    background-color: #8a7350;
+    /* background-color: #8a7350; */
     margin:0px ;
     height: 440px;
 }
@@ -962,6 +1043,24 @@ display: n;
     margin: 0px;
     object-fit: cover;
 }
+
+@media(max-width:770px){
+    .main7{
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        top: 2150px;
+        width: 100%;
+        margin-left: 150px;
+    }
+}
+@media(max-width:770px){
+    .grids{
+        height: 600px;
+        width: ;
+    }
+}
+
+
 
 
 .main8{
@@ -981,12 +1080,18 @@ display: n;
     scrollbar-width: thin;  
     scrollbar-color: rgb(71, 62, 64) rgba(192, 194, 195, 0.608);      ;
 }
+@media(max-width:770px){
+    .main8{
+        margin-top: 2290px;
+    }
+}
 .grids2{
     background-color: #8a7350;
     margin:0px ;
     height: 140px;
     
 }
+
 .grids2 img{
     height:340px ;
     width:345px ;
@@ -1175,3 +1280,88 @@ hr{
 .hrgrids{
     color: #fafafa;
 }
+@media(max-width:769px){
+    .logogrid{
+        position:relative;
+        /* left: -650px; */
+        /* background-color: #414584; */
+    }
+}
+@media(max-width:769px){
+    .footers3 b{
+        position:relative;
+        /* left: -650px; */
+        /* background-color: #414584; */
+    }
+}
+@media(max-width:769px){
+    .container6{
+        display: none;
+        background-color: #414584;
+    }
+}
+*{
+    box-sizing:border-box;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    margin-right: 0px;
+}
+
+
+/* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css */
+/* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css *//* men. css */
+
+
+
+.title p{
+    /* background-color: #b53636; */
+    word-spacing: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+.title h2{
+    font-size: 28px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin-left: 30px;
+
+}
+hr{
+    width: 100%;
+    /* color: #123455; */
+    filter: invert(100%);
+}
+.filter-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    /* gap: 20px; */
+    margin-left: 10px;
+   
+}
+.filter-container select, .filter-container button {
+    padding: 10px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    background-color: white;
+    cursor: pointer;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #080808f1;
+    
+}
+.filter-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.products{
+    margin-left: 30px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
