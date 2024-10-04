@@ -1364,4 +1364,43 @@ hr{
     font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 }
+.shoesection{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    height:auto;
+    max-width: 1460px;
+    /* gap: 30px ; */
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    /* grid-template-rows:repeat(5,1fr); */
+    /* background-color: #8a7350; */
+    gap: 15px;
+    margin-left: 30px;
+}
+.section{
+    background-color: #414584;
+    /* background-color: #8a7350; */
+    margin:0px ;
+    height:350px;
+    width: auto;
+    overflow-x:scroll ;
+    scrollbar-width: thin;  
+    scrollbar-color: rgb(71, 62, 64) ;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+}
+/* .grids2{
+    background-color: #8a7350;
+    margin:0px ;
+    height: 140px;
+    
+} */
 
+.section img{
+    height:340px ;
+    width:345px ;
+    margin: 0px;
+    object-fit: cover;
+}
