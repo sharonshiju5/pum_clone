@@ -1443,7 +1443,7 @@ hr{
     margin: 0px;
     object-fit: cover;
     cursor: pointer;
-    z-index: 100000;
+    z-index: 1;
 }
 .sale{
     background-color: #ba2b20;
@@ -1456,7 +1456,7 @@ hr{
     color: white;
     font-size: 12px;
     text-align: center;
-    z-index: 100000000;
+    z-index: 100;
 }
 .shnames{
     position: absolute;
